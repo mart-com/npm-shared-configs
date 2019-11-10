@@ -1,0 +1,26 @@
+{
+  "name": "@mart-com/dev-tools",
+  "version": "0.1.0",
+  "description": "Default packages used in development.",
+  "author": "Ibrahim AshShohail <me@ibrasho.com>",
+  "homepage": "https://github.com/mart-com/npm-shared-configs#readme",
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mart-com/npm-shared-configs.git"
+  },
+  "dependencies": {
+    "@commitlint/cli": "^8",
+    "@commitlint/config-conventional": "^8",
+    "eslint": "^6",
+    "husky": "^3",
+    "lint-staged": "^9",
+    "prettier": "^1"
+  }
+}
