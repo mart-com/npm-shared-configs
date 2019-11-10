@@ -1,6 +1,6 @@
 {
   "name": "@mart-com/prettier-config",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Mart shared Prettier config.",
   "author": "Ibrahim AshShohail <ibrahim@mart.com.sa>",
   "homepage": "https://github.com/mart-com/npm-shared-configs#readme",
