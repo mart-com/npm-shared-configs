@@ -19,7 +19,6 @@
     "@commitlint/cli": "^8",
     "@commitlint/config-conventional": "^8",
     "eslint": "^6",
-    "husky": "^3",
     "lint-staged": "^9",
     "prettier": "^1"
   }

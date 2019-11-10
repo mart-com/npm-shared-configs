@@ -7,11 +7,9 @@
     "lerna": "^3.18.4"
   },
   "scripts": {
-    "lint": "eslint --ext .js,.jsx .",
-    "lint:fix": "eslint --ext .js,.jsx . --fix",
-    "prettier": "prettier --write '**'",
-    "prettier:check": "prettier --check '**'",
-    "ci:lint": "yarn lint && pretty-quick --branch master --check"
+    "lint": "eslint . && prettier --check '**'",
+    "lint:fix": "eslint --fix . && prettier --fix '**'",
+    "ci:lint": "npm run lint && pretty-quick --check --branch master"
   },
   "prettier": "@mart-com/prettier-config",
   "commitlint": {
@@ -23,7 +21,7 @@
     "hooks": {
       "pre-commit": "lint-staged",
       "commit-msg": "commitlint -e $HUSKY_GIT_PARAMS",
-      "pre-push": "npm run prettier:check"
+      "pre-push": "npm run lint"
     }
   },
   "lint-staged": {
