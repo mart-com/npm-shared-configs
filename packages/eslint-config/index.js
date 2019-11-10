@@ -14,6 +14,7 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
+    'no-unused-vars': [2, { argsIgnorePattern: '^_', caughtErrors: 'none' }],
     'prettier/prettier': 'error',
     'import/no-unresolved': [2, { commonjs: true, amd: true }],
     'import/named': 2,
