@@ -1,8 +1,8 @@
 {
   "name": "@mart-com/eslint-config",
   "version": "0.2.0",
-  "description": "Mart base eslint configuration.",
-  "author": "Ibrahim AshShohail <me@ibrasho.com>",
+  "description": "Shared ESLint config for Mart projects.",
+  "author": "Ibrahim AshShohail <ibrahim@mart.com.sa>",
   "homepage": "https://github.com/mart-com/npm-shared-configs#readme",
   "license": "MIT",
   "main": "index.js",
@@ -12,5 +12,14 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mart-com/npm-shared-configs.git"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^6",
+    "eslint-plugin-import": "^2",
+    "eslint-plugin-prettier": "^3",
+    "eslint-plugin-react": "^7"
+  },
+  "peerDependencies": {
+    "eslint": ">= 6"
   }
 }

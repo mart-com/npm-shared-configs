@@ -2,24 +2,22 @@
   "name": "@mart-com/eslint-config-react",
   "version": "0.3.0",
   "description": "Shared ESLint config for Mart React projects.",
-  "main": "index.js",
-  "author": "",
+  "author": "Ibrahim AshShohail <ibrahim@mart.com.sa>",
+  "homepage": "https://github.com/mart-com/npm-shared-configs#readme",
   "license": "MIT",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/mart-com/eslint-config-react.git"
   },
   "dependencies": {
-    "eslint-config-prettier": "^6",
-    "eslint-plugin-import": "^2",
-    "eslint-plugin-prettier": "^3",
-    "eslint-plugin-react": "^7"
+    "eslint-plugin-react": "^7",
+    "@mart-com/eslint-config": "^0.2.0"
   },
   "peerDependencies": {
     "eslint": ">= 6"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "gitHead": "b258d26a0b5de1f23a7e5cf2b1d82df8ee1194ca"
+  }
 }
