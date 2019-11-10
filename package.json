@@ -2,6 +2,40 @@
   "name": "root",
   "private": true,
   "devDependencies": {
-    "lerna": "^3.18.4"
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-conventional": "^8.2.0",
+    "eslint": "^6.6.0",
+    "husky": "^3.0.9",
+    "lerna": "^3.18.4",
+    "lint-staged": "^9.4.2",
+    "prettier": "^1.19.1"
+  },
+  "scripts": {
+    "lint": "eslint --ext .js,.jsx .",
+    "lint:fix": "eslint --ext .js,.jsx . --fix",
+    "prettier": "prettier --write packages/**/*.{js,jsx}",
+    "prettier:check": "prettier --check packages/**/*.{js,jsx}",
+    "ci:lint": "yarn lint && pretty-quick --branch master --check"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -e $HUSKY_GIT_PARAMS",
+      "pre-push": "yarn prettier:check"
+    }
+  },
+  "lint-staged": {
+    "src/**.{js,jsx,ts,tsx}": [
+      "prettier --write",
+      "eslint --fix"
+    ],
+    "*.{json,yml,yaml}": [
+      "prettier --write"
+    ]
   }
 }
