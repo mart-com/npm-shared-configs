@@ -1,0 +1,16 @@
+{
+  "name": "@mart-com/prettier-config",
+  "version": "0.1.0",
+  "description": "Mart shared Prettier config.",
+  "author": "Ibrahim AshShohail <me@ibrasho.com>",
+  "homepage": "https://github.com/mart-com/npm-shared-configs#readme",
+  "license": "MIT",
+  "main": "index.json",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mart-com/npm-shared-configs.git"
+  }
+}
