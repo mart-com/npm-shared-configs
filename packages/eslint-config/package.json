@@ -1,6 +1,6 @@
 {
   "name": "@mart-com/eslint-config",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Shared ESLint config for Mart projects.",
   "author": "Ibrahim AshShohail <ibrahim@mart.com.sa>",
   "homepage": "https://github.com/mart-com/npm-shared-configs#readme",
