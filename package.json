@@ -2,8 +2,9 @@
   "name": "root",
   "private": true,
   "devDependencies": {
-    "@mart-com/dev-tools": "^0",
+    "@mart-com/dev-tools": "^0.3.0",
     "@mart-com/prettier-config": "^0.2.0",
+    "husky": "^3.0.9",
     "lerna": "^3.18.4"
   },
   "scripts": {
