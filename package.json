@@ -13,6 +13,7 @@
     "prettier:check": "prettier --check packages/**/*.{js,jsx}",
     "ci:lint": "yarn lint && pretty-quick --branch master --check"
   },
+  "prettier": "@mart-com/prettier-config",
   "commitlint": {
     "extends": [
       "@commitlint/config-conventional"
@@ -22,7 +23,7 @@
     "hooks": {
       "pre-commit": "lint-staged",
       "commit-msg": "commitlint -e $HUSKY_GIT_PARAMS",
-      "pre-push": "yarn prettier:check"
+      "pre-push": "npm run prettier:check"
     }
   },
   "lint-staged": {
