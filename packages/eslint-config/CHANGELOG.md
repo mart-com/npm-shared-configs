@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/mart-com/npm-shared-configs/compare/@mart-com/eslint-config@0.4.0...@mart-com/eslint-config@0.5.0) (2019-11-10)
+
+
+### Features
+
+* add ignored unused vars and err in catch ([facf7fd](https://github.com/mart-com/npm-shared-configs/commit/facf7fdc4a5fe5f1311dcc76337db9f5fe525b51))
+
+
+
+
+
 # [0.4.0](https://github.com/mart-com/npm-shared-configs/compare/@mart-com/eslint-config@0.3.1...@mart-com/eslint-config@0.4.0) (2019-11-10)
 
 
