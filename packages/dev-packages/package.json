@@ -5,9 +5,6 @@
   "author": "Ibrahim AshShohail <ibrahim@mart.com.sa>",
   "homepage": "https://github.com/mart-com/npm-shared-configs#readme",
   "license": "MIT",
-  "files": [
-    "lib"
-  ],
   "publishConfig": {
     "access": "public"
   },
