@@ -9,8 +9,8 @@
   "scripts": {
     "lint": "eslint --ext .js,.jsx .",
     "lint:fix": "eslint --ext .js,.jsx . --fix",
-    "prettier": "prettier --write packages/**/*.{js,jsx}",
-    "prettier:check": "prettier --check packages/**/*.{js,jsx}",
+    "prettier": "prettier --write '**'",
+    "prettier:check": "prettier --check '**'",
     "ci:lint": "yarn lint && pretty-quick --branch master --check"
   },
   "prettier": "@mart-com/prettier-config",

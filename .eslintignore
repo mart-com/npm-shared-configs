@@ -1,0 +1,11 @@
+# Files to ignore
+LICENSE
+*.*
+
+!*.js
+!*.json
+!*.jsx
+!*.ts
+!*.tsx
+
+.yarn/
