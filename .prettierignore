@@ -10,4 +10,5 @@ LICENSE
 !*.tsx
 !*.yml
 
+node_modules/
 .yarn/

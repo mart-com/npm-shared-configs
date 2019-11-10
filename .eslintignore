@@ -8,4 +8,5 @@ LICENSE
 !*.ts
 !*.tsx
 
+node_modules/
 .yarn/
