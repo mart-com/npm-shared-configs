@@ -17,7 +17,7 @@
     "eslint-config-prettier": "^6",
     "eslint-plugin-import": "^2",
     "eslint-plugin-prettier": "^3",
-    "eslint-plugin-react": "^7"
+    "eslint-plugin-promise": "^4"
   },
   "peerDependencies": {
     "eslint": ">= 6"

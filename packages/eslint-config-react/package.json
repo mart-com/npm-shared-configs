@@ -14,7 +14,7 @@
     "url": "https://github.com/mart-com/eslint-config-react.git"
   },
   "dependencies": {
-    "@mart-com/eslint-config": "^0.2.1",
+    "@mart-com/eslint-config": "^0",
     "eslint-plugin-react": "^7"
   },
   "peerDependencies": {
