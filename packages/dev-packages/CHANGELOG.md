@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/mart-com/npm-shared-configs/compare/@mart-com/dev-packages@0.4.1...@mart-com/dev-packages@0.5.0) (2019-11-12)
+
+
+### Features
+
+* **dev-packages:** add pretty-quick ([c64bcb9](https://github.com/mart-com/npm-shared-configs/commit/c64bcb9b67cfd9d5e7db7ec2ecfd18378ec0a410))
+
+
+
+
+
 ## [0.4.1](https://github.com/mart-com/npm-shared-configs/compare/@mart-com/dev-packages@0.4.0...@mart-com/dev-packages@0.4.1) (2019-11-10)
 
 **Note:** Version bump only for package @mart-com/dev-packages
