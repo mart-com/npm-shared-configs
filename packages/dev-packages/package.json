@@ -18,6 +18,6 @@
     "eslint": "^6",
     "lint-staged": "^9",
     "prettier": "^1",
-    "pretty-quick": "^2.0.1"
+    "pretty-quick": "^2"
   }
 }
