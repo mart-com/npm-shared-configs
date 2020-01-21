@@ -16,7 +16,7 @@
     "@commitlint/cli": "^8",
     "@commitlint/config-conventional": "^8",
     "eslint": "^6",
-    "lint-staged": "^9",
+    "lint-staged": "^10",
     "prettier": "^1",
     "pretty-quick": "^2"
   }
