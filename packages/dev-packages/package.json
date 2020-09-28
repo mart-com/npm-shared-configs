@@ -15,7 +15,7 @@
   "dependencies": {
     "@commitlint/cli": "^8",
     "@commitlint/config-conventional": "^8",
-    "eslint": "^6",
+    "eslint": "^7",
     "lint-staged": "^10",
     "prettier": "^1",
     "pretty-quick": "^2"
