@@ -1,0 +1,55 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/packages/eslint-config-react"
+  schedule:
+    interval: daily
+    time: "10:00"
+    timezone: Asia/Dubai
+  open-pull-requests-limit: 10
+  labels:
+  - type/chore
+  ignore:
+  - dependency-name: eslint-plugin-react
+    versions:
+    - 7.22.0
+    - 7.23.0
+    - 7.23.1
+  commit-message:
+    prefix: chore
+    include: scope
+- package-ecosystem: npm
+  directory: "/packages/dev-packages"
+  schedule:
+    interval: daily
+    time: "10:00"
+    timezone: Asia/Dubai
+  open-pull-requests-limit: 10
+  labels:
+  - type/chore
+  ignore:
+  - dependency-name: eslint
+    versions:
+    - 7.18.0
+    - 7.19.0
+    - 7.20.0
+    - 7.21.0
+    - 7.22.0
+    - 7.23.0
+    - 7.24.0
+  - dependency-name: "@commitlint/cli"
+    versions:
+    - 11.0.0
+    - 12.0.0
+    - 12.0.1
+  - dependency-name: "@commitlint/config-conventional"
+    versions:
+    - 11.0.0
+    - 12.0.0
+    - 12.0.1
+  - dependency-name: lint-staged
+    versions:
+    - 10.5.3
+  commit-message:
+    prefix: chore
+    include: scope
